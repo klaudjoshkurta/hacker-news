@@ -61,6 +61,10 @@ dependencies {
     implementation(libs.androidx.material3)
     /**  ViewModel */
     implementation(libs.androidx.lifecycle.viewmodel.compose)
+    // Retrofit
+    implementation(libs.retrofit)
+    // Retrofit with Scalar Converter
+    implementation(libs.converter.scalars)
 
     testImplementation(libs.junit)
 
